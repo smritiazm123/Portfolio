@@ -4,8 +4,8 @@ import { CgCPlusPlus } from "react-icons/cg";
 import { DiJavascript1, DiReact, } from "react-icons/di";
 import { TiHtml5 } from "react-icons/ti";
 import { SiCsswizardry } from "react-icons/si";
-import { FaGithub } from "react-icons/fa6";
-import { FaSass } from "react-icons/fa6";
+// import { FaGithub } from "react-icons/fa6";
+// import { FaSass } from "react-icons/fa6";
 import { SiTailwindcss } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
@@ -30,10 +30,10 @@ function Techstack() {
         <SiCsswizardry />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaGithub />
+        {/* <FaGithub /> */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <FaSass />
+        {/* <FaSass /> */}
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTailwindcss />
