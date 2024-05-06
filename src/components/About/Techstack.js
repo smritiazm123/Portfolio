@@ -5,10 +5,10 @@ import { DiJavascript1, DiReact, } from "react-icons/di";
 import { TiHtml5 } from "react-icons/ti";
 import { SiCsswizardry } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
-import { LiaSass } from "react-icons/lia";
 import { SiTailwindcss } from "react-icons/si";
 import { SiRedux } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
+import { DiSass } from "react-icons/di";
 import { SiMui } from "react-icons/si";
 
 function Techstack() {
@@ -33,7 +33,7 @@ function Techstack() {
         <SiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <LiaSass />
+        <DiSass />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiTailwindcss />
