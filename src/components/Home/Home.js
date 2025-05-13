@@ -25,9 +25,12 @@ function Home() {
                 <strong className="main-name"> SMRITI</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div style={{ padding: "20px 40px", textAlign: "left" }}>
                 <Type />
               </div>
+              <p className="intro-text">
+  A passionate developer who loves building beautiful and performant web apps.
+</p> 
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>

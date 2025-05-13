@@ -19,21 +19,39 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
+<p>
+  My journey in programming began in <i className="purple"><b>11th grade</b></i>, where I discovered a 
+  <i className="purple"><b>passion for coding</b></i> that quickly translated into 
+  <i className="purple"><b>academic success</b></i>. This early interest laid the foundation for my continued 
+  <i className="purple"><b>growth in the field of software development</b></i>.
 
-              I started programming during my 11th-grade year, and I fell in love with it because I consistently achieved top marks in my class. My interest stemmed from there. <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript, CSS, HTML, React, NextJs, MUI etc. </b>
-              </i>
-              <br />
-              <br />
+  <br /><br />
+  I’m proficient in technologies such as 
+  <i className="purple"><b> C++</b></i>, 
+  <i className="purple"><b> JavaScript</b></i>, 
+  <i className="purple"><b> HTML</b></i>, 
+  <i className="purple"><b> CSS</b></i>, 
+  <i className="purple"><b> React</b></i>, 
+  <i className="purple"><b> Next.js</b></i>, 
+  <i className="purple"><b> Tailwind</b></i>, and 
+  <i className="purple"><b> Material UI</b></i>.
 
-              I have developed proficient skills in various aspects of software development, including writing comprehensive  <i><b className="purple">documentation</b></i>, adeptly solving  <i><b className="purple">bugs</b></i>, meticulously  <i><b className="purple">testing</b></i> the flow manually, and successfully  <i><b className="purple">deploying both fresh projects on existing servers and those already up and running</b></i>. My experience and expertise in these areas enable me to contribute effectively to project development and maintenance.
+  <br /><br />
+  Over the past few years, I have honed my skills in building 
+  <i className="purple"><b> scalable</b></i> and 
+  <i className="purple"><b> user-friendly web applications</b></i>. Beyond coding, I excel at 
+  <i className="purple"><b> documenting technical processes</b></i>, 
+  <i className="purple"><b> resolving bugs efficiently</b></i>, 
+  <i className="purple"><b> conducting thorough manual testing</b></i>, and 
+  <i className="purple"><b> deploying both new and existing projects</b></i> to production environments.
 
-
-
-
-
+  <br /><br />
+  I take pride in my ability to 
+  <i className="purple"><b> adapt quickly</b></i>, 
+  <i className="purple"><b> collaborate effectively within teams</b></i>, and 
+  <i className="purple"><b> continuously learn new tools and frameworks</b></i> to deliver 
+  <i className="purple"><b> high-quality solutions</b></i>.
+</p>
 
 
             </p>
@@ -53,7 +71,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/312Smriti"
+                  href="https://github.com/smritiazm123"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
