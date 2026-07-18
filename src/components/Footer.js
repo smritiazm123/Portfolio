@@ -1,10 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
-import {
-  AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
-} from "react-icons/ai";
+import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
 function Footer() {
@@ -14,10 +10,10 @@ function Footer() {
     <Container fluid className="footer">
       <Row>
         <Col md="4" className="footer-copywright">
-          <h3>Designed and Developed by Smriti</h3>
+          <h3>Designed and developed by Smriti Yadav</h3>
         </Col>
         <Col md="4" className="footer-copywright">
-          <h3>Copyright © {year} S</h3>
+          <h3>Copyright © {year} SY</h3>
         </Col>
         <Col md="4" className="footer-body">
           <ul className="footer-icons">
@@ -27,17 +23,18 @@ function Footer() {
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="GitHub"
               >
                 <AiFillGithub />
               </a>
             </li>
-
             <li className="social-icons">
               <a
-                href="www.linkedin.com/in/smriti-yadav-973a73218"
+                href="https://www.linkedin.com/in/smriti-yadav-973a73218"
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="LinkedIn"
               >
                 <FaLinkedinIn />
               </a>
@@ -48,6 +45,7 @@ function Footer() {
                 style={{ color: "white" }}
                 target="_blank"
                 rel="noopener noreferrer"
+                aria-label="Instagram"
               >
                 <AiFillInstagram />
               </a>

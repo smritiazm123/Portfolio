@@ -2,44 +2,52 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem("portfolio-theme");
+          var theme =
+            saved === "light" || saved === "dark"
+              ? saved
+              : window.matchMedia("(prefers-color-scheme: light)").matches
+                ? "light"
+                : "dark";
+          document.documentElement.setAttribute("data-theme", theme);
+        } catch (e) {
+          document.documentElement.setAttribute("data-theme", "dark");
+        }
+      })();
+    </script>
     <link rel="icon" href="%PUBLIC_URL%/favicon.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
+    <meta name="theme-color" content="#0f1419" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>Smriti | Portfolio</title>
+    <title>Smriti Yadav | Frontend Engineer</title>
     <meta
       name="description"
-      content="Self Developed personal website build with React.js"
+      content="Frontend Engineer with 3+ years building React and Next.js apps — TypeScript, GraphQL, Apollo, performance & accessibility."
     />
 
-    <!-- Google / Search Engine Tags -->
-    <meta itemprop="name" content="Smriti | Portfolio" />
+    <meta itemprop="name" content="Smriti Yadav | Frontend Engineer" />
     <meta
       itemprop="description"
-      content="Self Developed personal website build with React.js"
+      content="Frontend Engineer with 3+ years building React and Next.js apps — TypeScript, GraphQL, Apollo, performance & accessibility."
     />
-  
-    <!-- Facebook Meta Tags -->
+
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Smriti | Portfolio" />
+    <meta property="og:title" content="Smriti Yadav | Frontend Engineer" />
     <meta
       property="og:description"
-      content="Self Developed personal website build with React.js"
+      content="Frontend Engineer with 3+ years building React and Next.js apps — TypeScript, GraphQL, Apollo, performance & accessibility."
     />
-   
 
-    <!-- Twitter Meta Tags -->
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="Smriti | Portfolio" />
+    <meta name="twitter:title" content="Smriti Yadav | Frontend Engineer" />
     <meta
       name="twitter:description"
-      content="Self Developed personal website build with React.js"
+      content="Frontend Engineer with 3+ years building React and Next.js apps — TypeScript, GraphQL, Apollo, performance & accessibility."
     />
-  
+  </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>

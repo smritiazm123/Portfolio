@@ -1,6 +1,5 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -8,46 +7,30 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-           <p>
-  Hi Everyone, I’m <i className="purple"><b>Smriti</b></i> from <i className="purple"><b>Azamgarh, Uttar Pradesh, India</b></i>.<br />
-  I currently work as a <i className="purple"><b>Software Engineer</b></i> at 
-  <i className="purple"><b> Spectacom Global Private Limited</b></i>, where I build scalable and user-focused web applications.
-  <br /><br />
-  I hold a <i className="purple"><b>BSc (Hons) degree in Computer Science</b></i> from 
-  <i className="purple"><b> Shyama Prasad Mukherjee College, University of Delhi</b></i>, 
-  graduating with a <i className="purple"><b>9.17 CGPA</b></i>. I also secured 
-  <i className="purple"><b> 85%</b></i> in my 12th and an <i className="purple"><b>8.8 CGPA</b></i> in my 10th grade at 
-  <i className="purple"><b> Kendriya Vidyalaya Azamgarh</b></i>.
-  <br /><br />
-  Beyond coding, I’m passionate about:
-  <ul>
-    <li><i className="purple"><b>Outdoor activities</b></i></li>
-    <li><i className="purple"><b>Singing</b></i></li>
-    <li><i className="purple"><b>Travelling</b></i></li>
-    <li><i className="purple"><b>Dancing</b></i></li>
-  </ul>
-  <br />
-  {/* <i className="purple"><b>“Strive to build things that make a difference!”</b></i> */}
-</p>
-
+            Hi — I’m <span className="purple">Smriti Yadav</span>, a{" "}
+            <span className="purple">Senior Software Engineer</span> (Frontend)
+            based in <span className="purple">Gurugram</span>, currently at{" "}
+            <span className="purple">Spectacom Global Private Limited</span>.
+            <br />
+            <br />
+            I started as a <span className="purple">Junior Software Engineer</span>,
+            grew into a <span className="purple">Software Engineer</span>, and
+            now lead as a <span className="purple">Senior Software Engineer</span>{" "}
+            — with <span className="purple">3+ years</span> shipping React and
+            Next.js apps using TypeScript, GraphQL, and Apollo Client.
+            <br />
+            <br />I hold a{" "}
+            <span className="purple">B.Sc. (Hons) Computer Science</span> from{" "}
+            <span className="purple">
+              Shyama Prasad Mukherjee College, Delhi University
+            </span>{" "}
+            (2019–2022).
+            <br />
+            <br />
+            Outside work: outdoors, singing, travelling, and dancing.
           </p>
-          {/* <ul>
-            <li className="about-activity">
-              <ImPointRight /> Doing Outdoor Activities
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Singing
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Travelling
-            </li>
-            <li className="about-activity">
-              <ImPointRight /> Dancing
-            </li>
-          </ul> */}
-
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ color: "var(--mist-muted)" }}>
+            “Strive to build things that make a difference!”
           </p>
           <footer className="blockquote-footer">Smriti</footer>
         </blockquote>

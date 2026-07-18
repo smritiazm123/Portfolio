@@ -27,7 +27,7 @@
 .tech-label {
   font-size: 14px;
   margin: 0;
-  color: #666;
+  color: var(--mist-muted);
   font-weight: 500;
 }
 /* Hover effect */
@@ -36,6 +36,6 @@
   transition: transform 0.2s ease-in-out;
 }
 .tech-icon-container:hover .tech-label {
-  color: #000;
+  color: var(--teal-bright);
   transition: color 0.2s ease-in-out;
 }
